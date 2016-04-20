@@ -1,0 +1,13 @@
+package com.allandequeiroz.playground.simulations
+
+import com.allandequeiroz.playground.SimulationBase
+import io.gatling.core.Predef.Simulation
+
+class <CLASS> extends Simulation {
+
+  var populatedScenarioBuilderList = new SimulationBase()
+    .getPopulatedScenarioBuilder("scenarios/<JSON>")
+
+  setUp(populatedScenarioBuilderList.toList)
+}
+

@@ -1,0 +1,14 @@
+{
+  "name": "Github",
+  "baseUrl": "https://github.com/allandequeiroz",
+  "requests": [
+    {
+      "name": "Allan's playground",
+      "url": "/playground"
+    },
+    {
+      "name": "Old blog version implemented with Meteor",
+      "url": "/allandequeiroz"
+    }
+  ]
+}
